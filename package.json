@@ -1,13 +1,17 @@
 {
-  "name": "xyz-brat-endpoint",
+  "name": "brat-endpoint",
   "version": "1.0.0",
+  "description": "BRAT style image/gif generator endpoint",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
-    "gifencoder": "^2.0.1",
-    "express": "^4.18.2"
+    "gif-encoder-2": "^1.0.5"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
